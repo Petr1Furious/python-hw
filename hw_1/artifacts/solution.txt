@@ -1,0 +1,34 @@
+ ~/i/python  master ?7  uv run hw_1/main.py hw_1/artifacts/test_input.txt                                       ✔  ▼  petrtsopa@potato-server  impure   19:54:52 
+     1  rust > c++
+     2
+     3  i use nixos btw
+     4
+     5
+     6
+     7  i use nixos btw
+     8
+     9
+    10  i use nixos btw i use nixos btw
+ ~/i/python  master ?7  nl -b a hw_1/artifacts/test_input.txt                                                   ✔  ▼  petrtsopa@potato-server  impure   19:56:23 
+     1  rust > c++
+     2
+     3  i use nixos btw
+     4
+     5
+     6
+     7  i use nixos btw
+     8
+     9
+    10  i use nixos btw i use nixos btw
+ ~/i/python  master ?7  echo -ne "i use nixos btw\n\ni use nixos btw\nrust > c++\n\n" | uv run hw_1/main.py     ✔  ▼  petrtsopa@potato-server  impure   19:56:30 
+     1  i use nixos btw
+     2
+     3  i use nixos btw
+     4  rust > c++
+     5
+ ~/i/python  master ?7  echo -ne "i use nixos btw\n\ni use nixos btw\nrust > c++\n\n" | nl -b a                 ✔  ▼  petrtsopa@potato-server  impure   19:57:35 
+     1  i use nixos btw
+     2
+     3  i use nixos btw
+     4  rust > c++
+     5

@@ -1,0 +1,64 @@
+ ~/i/python  master ?7  uv run hw_2/main.py hw_2/artifacts/{test_input1.txt,test_input2.txt}                    ✔  ▼  petrtsopa@potato-server  impure   19:57:55 
+==> hw_2/artifacts/test_input1.txt <==
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+==> hw_2/artifacts/test_input2.txt <==
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24%                                                                                                                                                                       
+ ~/i/python  master ?8  tail hw_2/artifacts/{test_input1.txt,test_input2.txt}                                   ✔  ▼  petrtsopa@potato-server  impure   20:12:08 
+==> hw_2/artifacts/test_input1.txt <==
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+==> hw_2/artifacts/test_input2.txt <==
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24%                                                                                                                                                                       
+ ~/i/python  master ?8  cat hw_2/artifacts/test_input1.txt | uv run hw_2/main.py                                ✔  ▼  petrtsopa@potato-server  impure   20:12:29 
+8
+9
+10i use nixos btw i use nixos btw
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
