@@ -21,6 +21,7 @@
           ];
           buildInputs = with pkgs; [
             uv
+            texliveSmall
           ];
         };
       }
