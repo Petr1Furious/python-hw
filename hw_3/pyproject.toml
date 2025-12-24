@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "matrix-lib-petr1furious"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = ["numpy>=2.4.0", "typer>=0.20.0"]
+
+[project.scripts]
+matrixlib = "matrix_lib.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["matrix_lib"]
